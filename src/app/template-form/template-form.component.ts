@@ -27,8 +27,8 @@ export class TemplateFormComponent implements OnInit {
     }
 
     ngOnInit() {
-        const element = this.renderer.selectRootElement('#nome');
-        setTimeout(() => element.focus(), 0);
+        // const element = this.renderer.selectRootElement('#nome');
+        // setTimeout(() => element.focus(), 0);
     }
 
     onSubmit(form) {
